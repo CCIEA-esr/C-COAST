@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "C-COAST"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Glider Transects
+      - href: about.qmd
+        text: About
+    background: "#276189"
+    search: true
+    logo: "images/logo-5.png"
+    logo-alt: "California Current Integrated Ecosystem Assessment Website"
+    logo-href: "https://www.integratedecosystemassessment.noaa.gov/regions/california-current"
+  favicon: "images/favicon.ico"
+  back-to-top-navigation: true
+  page-footer:
+    border: true
+    center:
+      - text: "Website Owner"
+        href: https://www.integratedecosystemassessment.noaa.gov/regions/california-current
+      - text: "NOAA"
+        href: https://www.noaa.gov/
+      - text: "Privacy Policy"
+        href: https://www.noaa.gov/privacy.html
+      - text: "Information Quality"
+        href: https://www.noaa.gov/organization/information-technology/policy-oversight/information-quality
+      - text: "Disclaimer"
+        href: https://www.fisheries.noaa.gov/national/about-us/website-policies-and-disclaimers
+    right:
+      - text: "<img src='/images/logos/doc_logo_black.gif' style='height: 50px; width: auto;'/>"
+        href: https://www.commerce.gov/
+  search: false
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
